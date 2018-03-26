@@ -1,0 +1,35 @@
+.tableCells {
+    border: none;
+    width: 80px;
+    font-size: 14px;
+    padding: 1px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid darksalmon;
+    padding: 0;
+}
+
+tr:first-child td,
+td:first-child {
+    background-color: white;
+    padding: 1px 3px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tableCells:hover {
+    background-color: blue;
+}
+
+.tableCells:focus {
+    background-color: plum;
+}
+
+.tableCells:not(:focus) {
+    text-align: right;
+}
